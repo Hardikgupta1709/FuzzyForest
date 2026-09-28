@@ -1,0 +1,17 @@
+# Core dependencies (always required)
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+lightgbm>=4.0.0
+rapidfuzz>=3.0.0
+Unidecode>=1.3.0
+jellyfish>=1.0.0
+tqdm>=4.60.0
+
+# Embedding & FAISS dependencies (optional — for Strategy 6 and feature #27)
+# Install these when running on SageMaker or a machine with enough RAM/GPU:
+# pip install sentence-transformers torch faiss-cpu
+#
+# sentence-transformers>=2.2.0
+# torch>=2.0.0
+# faiss-cpu>=1.7.0

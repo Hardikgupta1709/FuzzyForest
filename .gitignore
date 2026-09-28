@@ -1,0 +1,9 @@
+dataset/
+models/
+*.pyc
+__pycache__/
+.DS_Store
+output/*.tsv
+sagemaker/.ipynb_checkpoints/
+*.egg-info/
+.env
